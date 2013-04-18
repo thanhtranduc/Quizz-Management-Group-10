@@ -1,6 +1,6 @@
 Quizz management group 10
 Trần Đức Thành(c)
-Hy Trường Sơn 
+Hy Trường Sơn, 
 Võ Thanh Tùng
 
 
