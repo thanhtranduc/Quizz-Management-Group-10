@@ -25,7 +25,7 @@
 			if($user['User']['level'] == 0)
 				echo h('Admin'); 
 			else if($user['User']['level'] == 1)
-				echo h('Company');
+				echo h('Mod');
 			else if($user['User']['level'] == 2)
 				echo h('Student');
 		?>&nbsp;</td>

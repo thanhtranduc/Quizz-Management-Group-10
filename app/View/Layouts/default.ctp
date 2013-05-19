@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title><?=$title_for_layout;?> | Thuctap.com</title>
+	<title><?=$title_for_layout;?> | QuizzGroup10.edu.vn</title>
 	<?=$this->Html->css('screen.css');?>
 	<?=$this->Html->css('prettify.css');?>
 	<?=$this->Html->script('prettify/prettify.js');?>
@@ -102,11 +102,11 @@
 	</div>
 	
 	<div class="wrapper">
-		<a href="<?=$this->webroot; ?>"><?php echo $this->Html->image('images.jpg', array('alt' => 'Logo', 'id' => 'logo')); ?></a>
+		<a href="<?=$this->webroot; ?>"><?php echo $this->Html->image('logo.png', array('alt' => 'Logo', 'id' => 'logo')); ?></a>
 			
 			<ul class="tabs">
 				<li>
-					<?=$this->Html->link(__('Quizz manager',true),'/posts/index');?>
+					<?=$this->Html->link(__('Management post',true),'/posts/index');?>
 				</li>
 			</ul>
 		

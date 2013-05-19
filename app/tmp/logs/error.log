@@ -24810,7 +24810,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 D:\Kien\Programming\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:42:16 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:28:22 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24819,7 +24819,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:42:24 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:28:25 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24828,7 +24828,136 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:42:33 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:28:26 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /thuctap/questions/answerform/5/1
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap\app\Controller\QuestionsController.php(181): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '1')
+#7 C:\xampp\htdocs\thuctap\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:28:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:30:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:31:11 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /thuctap/questions/answerform/5/7
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap\app\Controller\QuestionsController.php(181): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '7')
+#7 C:\xampp\htdocs\thuctap\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:31:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:31:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:31:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:31:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:31:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:31:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:31:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:31:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:31:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:31:46 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24837,7 +24966,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:42:49 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:31:47 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24846,7 +24975,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:42:52 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:31:49 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24855,7 +24984,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:43:01 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:31:50 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24864,7 +24993,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:43:03 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:31:58 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24873,7 +25002,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:44:09 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:32:00 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24882,7 +25011,22 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:44:14 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:32:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /thuctap/questions/answerform/5/0
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap\app\Controller\QuestionsController.php(179): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '0')
+#7 C:\xampp\htdocs\thuctap\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:32:04 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24891,7 +25035,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:44:22 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:33:11 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24900,7 +25044,22 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:44:26 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:33:18 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 10' at line 1
+Request URL: /thuctap/questions/answerform/10/1
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap\app\Controller\QuestionsController.php(181): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('10', '1')
+#7 C:\xampp\htdocs\thuctap\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:33:18 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24909,7 +25068,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:44:32 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:34:55 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24918,7 +25077,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:44:34 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:34:58 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24927,7 +25086,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:44:37 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:35:00 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24936,7 +25095,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:48:56 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:35:15 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24945,7 +25104,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:49:00 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:35:19 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24954,7 +25113,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:50:36 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:35:22 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24963,7 +25122,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:50:38 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:35:54 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24972,7 +25131,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:51:29 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:35:56 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24981,7 +25140,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:51:30 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:00 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24990,7 +25149,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:52:02 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:03 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -24999,7 +25158,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:52:37 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:04 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25008,7 +25167,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:52:40 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:09 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25017,7 +25176,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:52:42 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:11 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25026,7 +25185,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:52:44 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:16 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25035,7 +25194,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:52:45 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:18 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25044,7 +25203,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:52:46 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:24 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25053,16 +25212,16 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:55:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+2013-04-10 17:36:26 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
-  'class' => 'ImgController',
+  'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/img/logo_uet.png
+Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:55:04 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:37 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25071,16 +25230,16 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:55:04 Error: [MissingControllerException] Controller class ImgController could not be found.
+2013-04-10 17:36:39 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
-  'class' => 'ImgController',
+  'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/img/logo_uet.png
+Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:55:23 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:43 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25089,7 +25248,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 06:55:24 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:36:58 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25098,7 +25257,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:15:26 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:37:04 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25107,7 +25266,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:15:31 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:37:12 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25116,7 +25275,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:17:04 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:37:14 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25125,7 +25284,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:17:10 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:37:16 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25134,7 +25293,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:17:15 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:37:19 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25142,8 +25301,179 @@ Exception Attributes: array (
 Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:44:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:44:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:44:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /thuctap_ok/questions/answerform/5/1
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap_ok\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap_ok\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap_ok\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap_ok\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap_ok\app\Controller\QuestionsController.php(181): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '1')
+#7 C:\xampp\htdocs\thuctap_ok\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap_ok\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap_ok\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:44:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:45:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /thuctap_ok/questions/answerform/5/1
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap_ok\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap_ok\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap_ok\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap_ok\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap_ok\app\Controller\QuestionsController.php(181): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '1')
+#7 C:\xampp\htdocs\thuctap_ok\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap_ok\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap_ok\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:45:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_ok/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_ok\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:18:31 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:48:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /thuctap/questions/answerform/5/0
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap\app\Controller\QuestionsController.php(179): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '0')
+#7 C:\xampp\htdocs\thuctap\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:48:45 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25152,7 +25482,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:18:46 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:48:47 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25161,7 +25491,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:21:24 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:48:48 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25170,7 +25500,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:21:26 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:48:52 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25179,7 +25509,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:21:32 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:48:54 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25188,7 +25518,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:22:14 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:49:03 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25197,17 +25527,16 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 13:23:40 Error: Fatal Error (1): Class 'AppHelper' not found in [C:\xampp\htdocs\thuctap\lib\Cake\View\Helper\HtmlHelper.php, line 31]
-2013-03-14 13:23:40 Error: [FatalErrorException] Class 'AppHelper' not found
-Request URL: /thuctap/users
+2013-04-10 17:49:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\lib\Cake\Error\ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Class 'AppHelpe...', 'C:\xampp\htdocs...', 31)
-#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AppHelpe...', 'C:\xampp\htdocs...', 31, Array)
-#2 C:\xampp\htdocs\thuctap\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Class 'AppHelpe...', 'C:\xampp\htdocs...', 31, Array)
-#3 C:\xampp\htdocs\thuctap\lib\Cake\Core\App.php(899): App::_checkFatalError()
-#4 [internal function]: App::shutdown()
-#5 {main}
-2013-03-14 07:23:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:49:09 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25216,7 +25545,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:24:03 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:49:10 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25225,7 +25554,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:24:13 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:49:13 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25234,7 +25563,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:24:18 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:49:16 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25243,7 +25572,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:25:37 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:49:17 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25252,7 +25581,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:25:44 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:49:18 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25261,7 +25590,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:26:14 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:49:22 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25270,7 +25599,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:26:17 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:49:24 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25279,7 +25608,22 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:26:29 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:49:25 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /thuctap/questions/answerform/5/1
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap\app\Controller\QuestionsController.php(181): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '1')
+#7 C:\xampp\htdocs\thuctap\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:49:25 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25288,7 +25632,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:27:13 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:49:54 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25297,7 +25641,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:27:17 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:50:33 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25306,7 +25650,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:27:35 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:50:40 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25315,7 +25659,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:27:52 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:50:47 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25324,7 +25668,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:27:55 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:51:43 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25333,7 +25677,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:28:21 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:51:52 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25342,7 +25686,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:28:33 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:51:53 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25351,7 +25695,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:28:45 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:51:57 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25360,7 +25704,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:28:54 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:00 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25369,7 +25713,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:29:08 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:03 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25378,7 +25722,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:29:21 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:04 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25387,7 +25731,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:29:48 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:08 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25396,7 +25740,7 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:29:50 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:09 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25405,7 +25749,22 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 07:30:33 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:11 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /thuctap/questions/answerform/5/1
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap\app\Controller\QuestionsController.php(181): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '1')
+#7 C:\xampp\htdocs\thuctap\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:52:11 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
@@ -25414,327 +25773,2775 @@ Request URL: /thuctap/js/prettify/prettify.js
 Stack Trace:
 #0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:17:21 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:44 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:17:28 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:47 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:17:33 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:48 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:17:40 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:54 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:17:48 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:56 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:17:55 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:52:59 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:18:40 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:53:02 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:18:42 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:53:03 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:18:47 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:53:08 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:18:49 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:53:09 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:19:09 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:53:25 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:19:28 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:53:26 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /QuizzMan/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\QuizzMan\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:22:33 Error: [MissingControllerException] Controller class ThuctapController could not be found.
+2013-04-10 17:53:32 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
-  'class' => 'ThuctapController',
+  'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /Thuctap/thuctap/
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\Thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:22:34 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:53:34 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /Thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\Thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:22:39 Error: [MissingControllerException] Controller class ThuctapController could not be found.
+2013-04-10 17:53:35 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /thuctap_thanh/questions/answerform/5/1
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap_thanh\app\Controller\QuestionsController.php(181): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '1')
+#7 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:53:35 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
-  'class' => 'ThuctapController',
+  'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /Thuctap/thuctap/
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\Thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:22:39 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:54:43 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /Thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\Thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:22:46 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:55:47 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:24:37 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:55:51 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:24:38 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:55:57 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:28:09 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:55:58 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:36:09 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:55:59 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:36:11 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:08 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:39:22 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:17 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:39:38 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:20 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:39:42 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:31 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:40:05 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:33 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:40:14 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:34 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:40:34 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:40 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:40:40 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:42 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:40:42 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:53 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:40:47 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:54 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:40:52 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:56:58 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:41:22 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:57:00 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:41:36 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:57:03 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-14 08:41:48 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:57:41 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
-2013-03-27 09:48:47 Error: [MissingControllerException] Controller class JsController could not be found.
+2013-04-10 17:57:43 Error: [MissingControllerException] Controller class JsController could not be found.
 Exception Attributes: array (
   'class' => 'JsController',
   'plugin' => NULL,
 )
-Request URL: /thuctap/js/prettify/prettify.js
+Request URL: /thuctap_thanh/js/prettify/prettify.js
 Stack Trace:
-#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:57:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:57:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:57:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:58:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:58:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:58:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:58:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:58:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:58:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:58:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:58:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:58:32 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /thuctap_thanh/questions/answerform/5/1
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\thuctap_thanh\app\Controller\QuestionsController.php(181): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '1')
+#7 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\thuctap_thanh\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 17:58:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 17:59:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:00:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:00:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:00:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:00:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:00:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:00:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:00:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:00:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:00:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:00:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:01:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:01:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:01:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:01:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:01:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:01:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:01:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:01:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:01:55 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:02:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:02:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:02:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:02:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:02:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:02:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:02:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:02:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:02:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:03:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:03:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:03:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap_thanh/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap_thanh\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:09:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:09:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /thuctap/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\thuctap\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:09:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:09:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:09:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:09:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:09:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:09:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:09:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:09:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:10:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:15:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:15:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:16:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:16:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:16:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:16:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:16:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:16:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:16:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:16:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:20:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:22:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:23:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:23:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:23:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:23:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:24:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:24:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:24:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:24:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:24:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:24:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:24:51 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:24:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= ('1')   ORDER BY rand() ASC  LIMIT 5' at line 1
+Request URL: /group10/questions/answerform/5/1
+Stack Trace:
+#0 C:\xampp\htdocs\group10\lib\Cake\Model\Datasource\DboSource.php(459): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\group10\lib\Cake\Model\Datasource\DboSource.php(425): DboSource->_execute('SELECT `Questio...', Array)
+#2 C:\xampp\htdocs\group10\lib\Cake\Model\Datasource\DboSource.php(669): DboSource->execute('SELECT `Questio...', Array, Array)
+#3 C:\xampp\htdocs\group10\lib\Cake\Model\Datasource\DboSource.php(1080): DboSource->fetchAll('SELECT `Questio...', false)
+#4 C:\xampp\htdocs\group10\lib\Cake\Model\Model.php(2674): DboSource->read(Object(AppModel), Array)
+#5 C:\xampp\htdocs\group10\app\Controller\QuestionsController.php(181): Model->find('all', Array)
+#6 [internal function]: QuestionsController->answerform('5', '1')
+#7 C:\xampp\htdocs\group10\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(QuestionsController), Array)
+#8 C:\xampp\htdocs\group10\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 C:\xampp\htdocs\group10\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest), Object(CakeResponse))
+#10 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-10 18:24:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:24:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:24:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:25:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:25:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:25:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:25:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:25:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:25:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:26:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:26:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:26:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:28:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:28:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:28:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:28:58 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:39 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /group10/add
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:29:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:30:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:30:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:30:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:30:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:30:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:30:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:31:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:31:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:32:20 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:32:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:35:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:35:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:36:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:36:07 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:36:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:36:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:36:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:36:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:36:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:36:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:36:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:36:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:37:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:37:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:37:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:38:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:40:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:40:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:45:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:45:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:45:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:46:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:46:06 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:46:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:49:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:49:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:49:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:49:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:49:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:50:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:50:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:50:21 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:50:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:50:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:25 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:51:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:52:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:52:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:52:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:52:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:52:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:10 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:32 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 18:53:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 19:05:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 19:05:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-10 19:05:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:54:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:54:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:54:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:54:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:54:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:54:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:54:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:04 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 07:55:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:07:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:31:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:31:23 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:34:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:34:18 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:34:22 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:38:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:44:57 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:45:05 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:45:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-11 08:45:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:55:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:55:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:55:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:55:44 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:55:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:55:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:55:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:56:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:56:15 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:56:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:56:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:56:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:56:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:56:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:57:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:57:11 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:57:13 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:57:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:57:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:57:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:57:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:58:14 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:58:24 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:58:27 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:58:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 09:58:31 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 08:32:26 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 08:32:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 08:32:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 08:32:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 08:32:53 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 08:32:56 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 08:33:02 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 08:33:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 08:33:52 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 09:45:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 09:45:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 09:45:38 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 09:45:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /group10/js/prettify/prettify.js
+Stack Trace:
+#0 C:\xampp\htdocs\group10\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}

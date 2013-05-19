@@ -18,7 +18,7 @@
 
 	<?=$this->Form->input('password', array('type' => 'Password', 'label' => 'Password(*)', 'class' => 'large_input'));?>
 	
-	<?=$this->Form->input('level',array('label' => "Account type",'type'=>'select','options'=>array(1 => 'Mod', 2 => 'Member'))); ?>
+	<?=$this->Form->input('level',array('label' => "Account type",'type'=>'select','options'=>array(1 => 'Mod', 2 => 'Student'))); ?>
 	<br>
 	<?=$this->Form->end('Register');?>
 	</div>

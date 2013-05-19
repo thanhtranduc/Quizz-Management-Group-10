@@ -1,7 +1,7 @@
 <html>
 <?if(count($user)>0){?>
 <?
-$level = array('admin', 'company manager', 'student');
+$level = array('admin', 'mod of website', 'student');
 ?>
 <? if($this->Session->read("User.username") == $user['User']['username'] ) { ?>
 		
